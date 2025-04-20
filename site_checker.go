@@ -16,7 +16,7 @@ var statusMap = map[int]string{
 	302: "↪️  Redirection temporaire",
 	400: "🧨 Mauvaise requête",
 	401: "🔒 Non autorisé",
-	403: "⛔ Accès interdit 🔒 (site ok mais bloqué par cloudflare)",
+	403: "⚠️ Site en ligne, mais bloqué (403 - filtre anti-bot)",
 	404: "🔍 Introuvable",
 	408: "⏳ Timeout",
 	429: "🚫 Trop de requêtes",
